@@ -874,9 +874,87 @@ footer .content-container i {
 }
 
 .pastor .content img {
-    width: 30%;
-    height: 380px;
+    width: 40%;
+    height: 100%;
     object-fit: cover;
     border-radius: 20px;
     object-position: top;
+}
+
+/* dom-joaquim */
+.dom-joaquim-header {
+    background-image: url('./assets/images/fundos/dombg.png');
+    background-size: cover; /* Comportamento semelhante ao object-fit: cover */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    height: 98vh; 
+    position: relative;
+    animation: growOpacity 1s ease-in-out 1 forwards;
+}
+
+/* Claraíba */
+.claraiba-header {
+    background-image: url('./assets/images/fundos/claraibabg.png');
+    background-size: cover; /* Comportamento semelhante ao object-fit: cover */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    height: 98vh; 
+    position: relative;
+    animation: growOpacity 1s ease-in-out 1 forwards;
+}
+
+/* Gaspar */
+.gaspar-header {
+    background-image: url('./assets/images/fundos/gasparbg.png');
+    background-size: cover; /* Comportamento semelhante ao object-fit: cover */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    height: 98vh; 
+    position: relative;
+    animation: growOpacity 1s ease-in-out 1 forwards;
+}
+
+/* Online */
+.online-header {
+    background-image: url('./assets/images/fundos/onlinebg.png');
+    background-size: cover; /* Comportamento semelhante ao object-fit: cover */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    height: 98vh; 
+    position: relative;
+    animation: growOpacity 1s ease-in-out 1 forwards;
+}
+
+/* Church Location */
+.church-location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.church-location h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #161822;
+    text-align: center;
+}
+
+.church-location iframe {
+    align-content: center;
+}
+
+.history-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 150px;
+    padding-top: 50px;
+}
+
+.history-video h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #161822;
+    text-align: center;
 }
